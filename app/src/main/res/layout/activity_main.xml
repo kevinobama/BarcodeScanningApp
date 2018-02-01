@@ -10,9 +10,23 @@
     <Button android:id="@+id/scan_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_centerHorizontal="true"
         android:onClick="scan"
-        android:text="@string/scan" />
+        android:text="@string/scan"
+        android:layout_alignParentTop="true"
+        android:layout_toLeftOf="@+id/resultContent"
+        android:layout_toStartOf="@+id/resultContent"
+        android:layout_marginTop="16dp" />
+
+    <Button android:id="@+id/generate_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="generate"
+        android:text="generate Qr code"
+        android:layout_above="@+id/scan_format"
+        android:layout_toRightOf="@+id/scan_format"
+        android:layout_toEndOf="@+id/scan_format"
+        android:layout_marginLeft="17dp"
+        android:layout_marginStart="17dp" />
 
     <TextView
         android:id="@+id/scan_format"
@@ -34,11 +48,19 @@
         android:id="@+id/resultContent"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/scan_content"
-        android:layout_marginTop="30dp"
-        android:layout_toLeftOf="@+id/scan_button"
-        android:layout_toStartOf="@+id/scan_button"
-        android:text="TextView" />
+        android:layout_marginTop="18dp"
+        android:text="TextView"
+        android:layout_below="@+id/generate_button"
+        android:layout_toLeftOf="@+id/scan_content"
+        android:layout_toStartOf="@+id/scan_content"
+        android:layout_marginRight="16dp"
+        android:layout_marginEnd="16dp" />
 
+    <ImageView
+        android:id="@+id/myImage"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true" />
 
 </RelativeLayout>
