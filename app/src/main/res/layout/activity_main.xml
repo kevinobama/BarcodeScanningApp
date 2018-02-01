@@ -21,6 +21,7 @@
         android:textIsSelectable="true"
         android:layout_centerHorizontal="true"
         android:layout_below="@id/scan_button" />
+
     <TextView
         android:id="@+id/scan_content"
         android:layout_width="wrap_content"
@@ -28,6 +29,16 @@
         android:textIsSelectable="true"
         android:layout_centerHorizontal="true"
         android:layout_below="@id/scan_format" />
+
+    <TextView
+        android:id="@+id/resultContent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/scan_content"
+        android:layout_marginTop="30dp"
+        android:layout_toLeftOf="@+id/scan_button"
+        android:layout_toStartOf="@+id/scan_button"
+        android:text="TextView" />
 
 
 </RelativeLayout>
