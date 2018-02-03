@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file:///var/www/android/BarcodeScanningApp/BarcodeScanningApp.iml" filepath="/var/www/android/BarcodeScanningApp/BarcodeScanningApp.iml" />
       <module fileurl="file://$PROJECT_DIR$/BarcodeScanningApp.iml" filepath="$PROJECT_DIR$/BarcodeScanningApp.iml" />
+      <module fileurl="file:///var/www/android/BarcodeScanningApp/app/app.iml" filepath="/var/www/android/BarcodeScanningApp/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>
   </component>
