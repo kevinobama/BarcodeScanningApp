@@ -24,6 +24,8 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.ImageView;
 import 	android.view.MenuInflater;
+//import weather.*;
+import java.sql.*;
 
 public class MainActivity extends AppCompatActivity {
 
